@@ -21,6 +21,19 @@
 * [ ] rewrite all "costing request" stuff over to relevant stuff
 * [ ] write tests for all backend work
 
+## Getting started
+
+1. `mix deps.get`
+1. `yarn install`
+1. `mix ecto.setup`
+1. `mix phx.server`
+1. `yarn watch`
+1. visit http://localhost:4000
+1. https://hexdocs.pm/phoenix/heroku.html
+1. Add these buildpacks (in order I think):
+    * https://github.com/HashNuke/heroku-buildpack-elixir
+    * https://github.com/gjaldon/heroku-buildpack-phoenix-static
+
 ### Questions
 
 * What can outside users do?
